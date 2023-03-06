@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "133705878828",
+    "project_id": "deaddict-collect2",
+    "storage_bucket": "deaddict-collect2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133705878828:android:8d92b119e434373f8fb089",
+        "android_client_info": {
+          "package_name": "com.example.touchdetector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133705878828-c4scaftk5b9fph5t3f57n6a5h2273nmt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyy5J84RLVPVyea91ggTnzs9b-AKh8vxg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133705878828-c4scaftk5b9fph5t3f57n6a5h2273nmt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
