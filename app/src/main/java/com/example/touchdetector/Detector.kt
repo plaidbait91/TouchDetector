@@ -40,13 +40,13 @@ class Detector : AccessibilityService() {
             database = if(i == 1) {
                 with(sharedPref.edit()) {
                     putInt("DBchosen", 1)
-                    apply()
+                    commit()
                 }
                 FirebaseDatabase.getInstance(FirebaseApp.getInstance("deaddict-collect"))
             } else {
                 with(sharedPref.edit()) {
                     putInt("DBchosen", 0)
-                    apply()
+                    commit()
                 }
                 FirebaseDatabase.getInstance(FirebaseApp.getInstance("deaddict-collect2"))
             }
